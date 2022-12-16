@@ -1,4 +1,4 @@
-# Simple to-do with TypeScript
+# Simple to-do list with TypeScript
 
 ## Description
 
