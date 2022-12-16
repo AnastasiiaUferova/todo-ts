@@ -1,24 +1,28 @@
-# New Project
+# Simple to-do with TypeScript
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+## Description
 
-## Available Scripts
+A simple to-do list app where you can add, check and clear the tasks. The purpose of the project was to learn TypeScript using real project.
 
-### npm start
+## Technologies used
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
+* TypeScript;
+* Snowpack;
+* UUID lib;
+* HTML5;
+* Git;
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
 
-### npm run build
+## Installation instructions:
 
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
+```
+git clone https://github.com/AnastasiiaUferova/todo-ts.git
 
-**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.mjs` config file.
+cd todo-ts
 
-### Q: What about Eject?
+npm install 
 
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+npm run build
+
+npm run start
+```
